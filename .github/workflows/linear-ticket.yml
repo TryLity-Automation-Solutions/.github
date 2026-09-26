@@ -1,7 +1,7 @@
 name: Linear Ticket Check
 
 on:
-  pull_request:
+  pull_request_target:
     types: [opened, reopened, edited, ready_for_review]
 
 jobs:
